@@ -1,37 +1,34 @@
 # Company
 
-Employee eklenmeden önce company eklenmesi gerekmektedir. Company'ler eklenmeli sonrasında sistem Employee eklemeye izin verir.
-İlgili company ID kaydı yoksa employee'ler sisteme eklenmez. Sistem hata fırlatır.
+Öncelikle DBye şirket eklememiz gerekiyor. Ekli olan şirketlere çalışan ekleme işlemini şirketleri ekledikten sonra gerçekleştirebiliriz.
 
 
 ## URL
-    http://localhost:9090/api/v1/company
+    http://localhost:8080/api/v1/company
 
 ### FIND_ALL
-    http://localhost:9090/api/v1/company/find-all
+    http://localhost:8080/api/v1/company/find-all
 ### SAVE
     @RequestBody
-    http://localhost:9090/api/v1/company/save
+    http://localhost:8080/api/v1/company/save
 ### UPDATE
     @RequestBody
-    http://localhost:9090/api/v1/company/update
+    http://localhost:8080/api/v1/company/update
 ### DELETE
-    http://localhost:9090/api/v1/company/delete
+    http://localhost:8080/api/v1/company/delete
 
 #   Employee
-
-İlgili şirketin ID'si mevcut şirketler arasında bulunuyorsa eğer employee eklemesi yapılabilir.
-
+ Employee ekleme işlemini şirketlerin ID'leri üzerinden gerçekleştiriyoruz.
 ## URL
-    http://localhost:9090/api/v1/employee
+    http://localhost:8080/api/v1/employee
 
 ### FIND_ALL
-    http://localhost:9090/api/v1/employee/find-all
+    http://localhost:8080/api/v1/employee/find-all
 ### SAVE
     @RequestBody
-    http://localhost:9090/api/v1/employee/save
+    http://localhost:8080/api/v1/employee/save
 ### UPDATE
     @RequestBody
-    http://localhost:9090/api/v1/employee/update
+    http://localhost:8080/api/v1/employee/update
 ### DELETE
-    http://localhost:9090/api/v1/employee/delete
+    http://localhost:8080/api/v1/employee/delete
