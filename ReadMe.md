@@ -2,7 +2,6 @@
 
 Öncelikle DBye şirket eklememiz gerekiyor. Ekli olan şirketlere çalışan ekleme işlemini şirketleri ekledikten sonra gerçekleştirebiliriz.
 
-
 ## URL
     http://localhost:8080/api/v1/company
 
@@ -18,7 +17,9 @@
     http://localhost:8080/api/v1/company/delete
 
 #   Employee
+
  Employee ekleme işlemini şirketlerin ID'leri üzerinden gerçekleştiriyoruz.
+
 ## URL
     http://localhost:8080/api/v1/employee
 
